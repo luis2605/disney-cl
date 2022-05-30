@@ -2,6 +2,7 @@ import React from 'react'
 import styledComponents from 'styled-components'
 import ImgSlider from './ImgSlider'
 import Viewers from './Viewers'
+import Movies from './Movies'
 
 
 function Home() {
@@ -9,7 +10,8 @@ function Home() {
     <Container>
         <ImgSlider/>   
         <Viewers/>
-        </Container>
+        <Movies/>
+    </Container>
   )
 }
 
@@ -37,3 +39,4 @@ position:relative;
     }
 
 `
+

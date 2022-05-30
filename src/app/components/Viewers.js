@@ -30,7 +30,7 @@ function Viewers() {
 export default Viewers
 
 const Container=styledComponents.div`
-margin-top:4em;
+margin:4em 0 3em 0;
 
 display:flex;
 
