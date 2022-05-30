@@ -20,6 +20,6 @@ function App() {
 
 export default App;
 const Container = styledComponents.div`
-overflow:hidden;
+overflow-X:hidden;
 
 `

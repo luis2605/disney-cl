@@ -4,9 +4,60 @@ import styledComponents from 'styled-components'
 function Viewers() {
   return (
 
-    
-    <div>Viewers</div>
+   <Container>
+       <Wrap>
+            <img src='/images/viewers-disney.png' alt='' ></img>
+       </Wrap>
+       <Wrap>
+            <img src='/images/viewers-marvel.png' alt='' ></img>
+       </Wrap>
+       <Wrap>
+            <img src='/images/viewers-national.png' alt='' ></img>
+       </Wrap>
+       <Wrap>
+            <img src='/images/viewers-pixar.png' alt='' ></img>
+       </Wrap>
+       <Wrap>
+            <img src='/images/viewers-starwars.png' alt='' ></img>
+       </Wrap>
+
+
+
+   </Container>
   )
 }
 
 export default Viewers
+
+const Container=styledComponents.div`
+margin-top:4em;
+
+display:flex;
+
+
+
+
+
+`
+
+const Wrap = styledComponents.div`
+border-radius:10px;
+border:3px solid var(--border-normal);
+margin: 0 1em;
+box-shadow: var(--shadow-effect);
+transition:all 250ms cubic-bezier(.25, .46, .45, .94) 0s;
+
+ img{
+     width:100%;
+     height:100%;
+     object-fit:cover;
+ }
+ &:hover{
+ transform:scale(1.05);
+ border:3px solid var(--border-hvr);
+box-shadow:var(--bigger-shadow-effect);
+
+ }
+
+
+`

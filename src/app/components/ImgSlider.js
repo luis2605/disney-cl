@@ -55,6 +55,7 @@ const Carrousel =styledComponents(slider)`
 padding-top:2.5em;
 
 
+
 .slick-list{                             // modifiying elements from  React-slick
     overflow:visible;
 }
@@ -70,19 +71,24 @@ li.slick-active button::before{
 
 }
 
+.slick-dots{
+    bottom:-30px;
+}
+
 `
 const Wrap =styledComponents.div`
+
 img{
     
     width:100%;
     height:100%;
-    border-radius:4px;
-    border:4px solid transparent;
-    box-shadow: rgb(38, 57, 77) 0px 10px 30px -10px;
-    transition-duration: 300ms;
-
+    border-radius:10px;
+    padding:0 .3em;
+    box-shadow: var(--shadow-effect);
+   
     &:hover{
-        border:4px solid var(--border-hvr)
+        border:4px solid var(--border-hvr);
+    
     }
 }
 
