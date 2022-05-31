@@ -3,24 +3,22 @@ import styledComponents from 'styled-components'
 import ImgSlider from './ImgSlider'
 import Viewers from './Viewers'
 import Movies from './Movies'
-import db from '../../firebase'
+import Data from './Data'
+
 
 
 function Home() {
 
-useEffect(()=>{
-    db.collection("movies").onSnapshot((snapshot)=>{
-        console.log(snapshot)
-    })
+    const [ movieData, setMovieData]=React.useState(Data)
 
+    console.log(movieData)
 
-}, [])
 
   return (
     <Container>
         <ImgSlider/>   
         <Viewers/>
-        <Movies/>
+        <Movies title={}/>
     </Container>
   )
 }
