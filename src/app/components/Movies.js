@@ -18,6 +18,18 @@ function Movies() {
             <Wrap>
                 <img src='https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4D81CFC0AB36129E290B4A78224FBD4CE0FC6FFABF59539B0FDD9D844F25EBA4/scale?width=1200&aspectRatio=1.78&format=jpeg' alt=''></img>
             </Wrap>
+            <Wrap>
+                <img src='https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4D81CFC0AB36129E290B4A78224FBD4CE0FC6FFABF59539B0FDD9D844F25EBA4/scale?width=1200&aspectRatio=1.78&format=jpeg' alt=''></img>
+            </Wrap>
+            <Wrap>
+                <img src='https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4D81CFC0AB36129E290B4A78224FBD4CE0FC6FFABF59539B0FDD9D844F25EBA4/scale?width=1200&aspectRatio=1.78&format=jpeg' alt=''></img>
+            </Wrap>
+            <Wrap>
+                <img src='https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4D81CFC0AB36129E290B4A78224FBD4CE0FC6FFABF59539B0FDD9D844F25EBA4/scale?width=1200&aspectRatio=1.78&format=jpeg' alt=''></img>
+            </Wrap>
+            <Wrap>
+                <img src='https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4D81CFC0AB36129E290B4A78224FBD4CE0FC6FFABF59539B0FDD9D844F25EBA4/scale?width=1200&aspectRatio=1.78&format=jpeg' alt=''></img>
+            </Wrap>
 
        </Content>
         

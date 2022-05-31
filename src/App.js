@@ -5,6 +5,7 @@ import Home from './app/components/Home';
 import Detail from './app/components/Detail';
 import { Counter } from './features/counter/Counter';
 import './App.css';
+import Login from './app/components/Login';
 
 import {
   BrowserRouter as Router,
@@ -24,6 +25,7 @@ function App() {
       <Router>
         <Header />
         <Routes>
+          <Route path="/login" element={<Login/>} />
             <Route path="/detail" element={<Detail/>} />
              
             <Route path= "/"  element={<Home/>}/>
