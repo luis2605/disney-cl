@@ -10,7 +10,7 @@ const movieCard = props.img.map(item=>{
 
  return(
      <Wrap key={item.key}>
-        <a href={`/${item.detail}`}> <img src={item.img} alt={item.title}></img></a>
+        <a href={`./#/${item.detail}`}> <img src={item.img} alt={item.title}></img></a>
 
      </Wrap>
  )
