@@ -4,30 +4,30 @@ import styledComponents from 'styled-components'
 function Header() {
   return (
     <Nav>
-        <Logo src='/images/logo.svg'/>
+        <Logo src='./images/logo.svg'/>
         <NavMenu>
             <a href='/'> 
-             <img src='/images/home-icon.svg' alt='#'></img>
+             <img src='./images/home-icon.svg' alt='#'></img>
              <span>HOME</span>
             </a>
             <a href='/login'> 
-             <img src='/images/search-icon.svg' alt='#'></img>
+             <img src='./images/search-icon.svg' alt='#'></img>
              <span>SEARCH</span>
             </a>
             <a href='/login'> 
-             <img src='/images/watchlist-icon.svg' alt='#'></img>
+             <img src='./images/watchlist-icon.svg' alt='#'></img>
              <span>WATCHLIST</span>
             </a>
             <a href='/login'> 
-             <img src='/images/original-icon.svg' alt='#'></img>
+             <img src='./images/original-icon.svg' alt='#'></img>
              <span>ORIGINALS</span>
             </a>
             <a href='/login'> 
-             <img src='/images/movie-icon.svg' alt='#'></img>
+             <img src='./images/movie-icon.svg' alt='#'></img>
              <span>MOVIES</span>
             </a>
             <a href='/login'> 
-             <img src='/images/series-icon.svg' alt='#'></img>
+             <img src='./images/series-icon.svg' alt='#'></img>
              <span>SERIES</span>
             </a>
 
