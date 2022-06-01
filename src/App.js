@@ -43,7 +43,7 @@ function App() {
         <Routes>
           <Route path="/login" element={<Login/>} />
           
-            <Route path="/luis2605.github.io/disney-cl/detail" element={<Detail img={moviesData} />} />
+            <Route path="/detail" element={<Detail img={moviesData} />} />
             <Route path="/detail1" element={<Detail1 img={moviesData} />} />
             <Route path="/detail2" element={<Detail2 img={moviesData} />} />
             <Route path="/detail3" element={<Detail3 img={moviesData} />} />

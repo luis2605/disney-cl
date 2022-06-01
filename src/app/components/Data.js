@@ -1,7 +1,7 @@
  export default [
     {
       key:0,
-      detail:"luis2605.github.io/disney-cl/detail",
+      detail:"detail",
       title:"Eternals",
       description:"Marvel Studios’ 'Eternals' follows a group of ancient heroes from beyond the stars who had protected Earth since the dawn of man. When monstrous creatures called Deviants, long thought lost to history, mysteriously return, the Eternals are forced to reunite in order to defend humanity once again.",
       trailer:"https://www.youtube.com/watch?v=x_me3xsvDgk",
