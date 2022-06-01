@@ -38,7 +38,7 @@ function App() {
    
     <Container>
       
-      <HashRouter basename='/'  >
+      <HashRouter   >
       
         <Header />
         <Routes>
