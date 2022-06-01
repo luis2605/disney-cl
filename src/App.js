@@ -38,7 +38,7 @@ function App() {
    
     <Container>
       
-      <BrowserRouter  >
+      <Router  >
       
         <Header />
         <Routes>
@@ -57,7 +57,7 @@ function App() {
         </Routes>
         <Footer/>
      
-        </BrowserRouter>
+        </Router>
       
 
      
