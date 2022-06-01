@@ -1,7 +1,7 @@
  export default [
     {
       key:0,
-      detail:"detail",
+      detail:"/disney-cl/detail",
       title:"Eternals",
       description:"Marvel Studios’ 'Eternals' follows a group of ancient heroes from beyond the stars who had protected Earth since the dawn of man. When monstrous creatures called Deviants, long thought lost to history, mysteriously return, the Eternals are forced to reunite in order to defend humanity once again.",
       trailer:"https://www.youtube.com/watch?v=x_me3xsvDgk",
@@ -13,7 +13,7 @@
     },
     {
       key:1,
-      detail:"detail1",
+      detail:"/disney-cl/detail1",
       title:"Nightmare Alley ",
       description:"In 1940s New York, down-on-his-luck Stanton Carlisle endears himself to a clairvoyant and her mentalist husband at a traveling carnival. Using newly acquired knowledge, Carlisle crafts a golden ticket to success by swindling the elite and wealthy. Hoping for a big score, he soon hatches a scheme to con a dangerous tycoon with help from a mysterious psychologist who might be his most formidable opponent yet.",
       trailer:"https://www.youtube.com/watch?v=Q81Yf46Oj3s",
@@ -26,7 +26,7 @@
     },
     {
       key:2,
-      detail:"detail2",
+      detail:"/disney-cl/detail2",
       title:"Death on the Nile",
       description:"Belgian sleuth Hercule Poirot's Egyptian vacation aboard a glamorous river steamer turns into a terrifying search for a murderer when a picture-perfect couple's idyllic honeymoon is tragically cut short.",
       trailer:"https://www.youtube.com/watch?v=dZRqB0JLizw",
@@ -38,7 +38,7 @@
     },
     {
       key:3,
-      detail:"detail3",
+      detail:"/disney-cl/detail3",
       title:"Free Guy ",
       description:"When a bank teller discovers he's actually a background player in an open-world video game, he decides to become the hero of his own story -- one that he can rewrite himself. In a world where there's no limits, he's determined to save the day his way before it's too late, and maybe find a little romance with the coder who conceived him.",
       trailer:"https://www.youtube.com/watch?v=X2m-08cOAbc",
@@ -50,7 +50,7 @@
     },
     {
       key:4,
-      detail:"detail4",
+      detail:"/disney-cl/detail4",
       title:"Turning Red",
       description:"Mei Lee is a 13-year-old girl who is torn between being her mother's obedient daughter and the chaos of her youth. As if that were not enough, when she gets too excited, she turns into a big red panda.",
       trailer:"https://www.youtube.com/watch?v=XdKzUbAiswE",
@@ -62,7 +62,7 @@
     },
     {
       key:5,
-      detail:"detail5",
+      detail:"/disney-cl/detail5",
       title:"The last Duel",
       description:"Jean de Carrouges is a respected knight known for his bravery and skill on the battlefield. Jacques Le Gris is a squire whose intelligence and eloquence makes him one of the most admired nobles in court. When Le Gris viciously assaults Carrouges' wife, she steps forward to accuse her attacker, an act of bravery and defiance that puts her life in jeopardy. The ensuing trial by combat, a grueling duel to the death, places the fate of all three in God's hands.",
       trailer:"https://www.youtube.com/watch?v=oE31KKv0GWU",
@@ -75,7 +75,7 @@
     },
     {
       key:6,
-      detail:"detail6",
+      detail:"/disney-cl/detail6",
       title:"Guardians of the Galaxy Vol. 2",
       description:"After a successful mission, Quill and his team of galactic defenders meet Ego, a man claiming to be Quill's father. However, they soon learn some disturbing truths about Ego.",
       trailer:"https://www.youtube.com/watch?v=dW1BIid8Osg",
@@ -88,7 +88,7 @@
     },
     {
       key:7,
-      detail:"detail7",
+      detail:"/disney-cl/detail7",
       title:"Chip 'n Dale: Rescue Rangers",
       description:"Chip and Dale live amongst cartoons and humans in modern-day Los Angeles, but their lives are quite different now. When a former cast mate mysteriously disappears, Chip and Dale must repair their broken friendship and save their friend.",
       trailer:"https://www.youtube.com/watch?v=OIwaY3A7np8",

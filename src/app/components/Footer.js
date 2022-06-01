@@ -5,7 +5,7 @@ function Footer() {
   return (
     
     <Container>
-        <Logo src='/images/logo.svg'/>
+        <Logo src='./images/logo.svg'/>
         <Infos>
             <a href='/'>Privacy Policy</a>
             <a href='/'>Cookies Policy</a>
