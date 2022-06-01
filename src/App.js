@@ -36,7 +36,9 @@ function App() {
 
    
     <Container>
-      <HashRouter>
+      
+      <Router>
+      
         <Header />
         <Routes>
           <Route path="/login" element={<Login/>} />
@@ -54,7 +56,9 @@ function App() {
              
         </Routes>
         <Footer/>
-      </HashRouter>
+     
+      </Router>
+      
 
      
     </Container>

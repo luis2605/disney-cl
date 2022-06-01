@@ -22,28 +22,28 @@ function ImgSlider() {
     return (
     <Carrousel {... settings}>
         <Wrap>
-            <img src='/images/slider-badging.jpg' alt=''></img>
+            <img src='./images/slider-badging.jpg' alt=''></img>
         </Wrap>
         <Wrap>
-            <img src='/images/slider-badag.jpg' alt=''></img>
+            <img src='./images/slider-badag.jpg' alt=''></img>
         </Wrap>
         <Wrap>
-            <img src='/images/iron-man.webp' alt=''></img>
+            <img src='./images/iron-man.webp' alt=''></img>
         </Wrap>
         <Wrap>
-            <img src='/images/marvel.webp' alt=''></img>
+            <img src='./images/marvel.webp' alt=''></img>
         </Wrap>
         <Wrap>
-            <img src='/images/obi-one.jpg' alt=''></img>
+            <img src='./images/obi-one.jpg' alt=''></img>
         </Wrap>
         <Wrap>
-            <img src='/images/slider-scale.jpg' alt=''></img>
+            <img src='./images/slider-scale.jpg' alt=''></img>
         </Wrap>
         <Wrap>
-            <img src='/images/slider-scales.jpg' alt=''></img>
+            <img src='./images/slider-scales.jpg' alt=''></img>
         </Wrap>
         <Wrap>
-            <img src='/images/eternals.webp' alt=''></img>
+            <img src='./images/eternals.webp' alt=''></img>
         </Wrap>
     </Carrousel>
   )
