@@ -9,7 +9,7 @@ function login() {
 
        <ContainerText >
             <Icons >
-                <img src='/images/cta-logo-one.svg'alt=''></img>
+                <img src='./images/cta-logo-one.svg'alt=''></img>
             </Icons>
             <BtnGet >
                <span>Get all There</span> 
@@ -20,19 +20,19 @@ function login() {
             </Description>
             <Include>
                     <Wrap>
-                    <img src='/images/viewers-disney.png' alt='' ></img>
+                    <img src='./images/viewers-disney.png' alt='' ></img>
                      </Wrap>
                      <Wrap>
-                    <img src='/images/viewers-marvel.png' alt='' ></img>
+                    <img src='./images/viewers-marvel.png' alt='' ></img>
                      </Wrap>
                      <Wrap>
-                    <img src='/images/viewers-national.png' alt='' ></img>
+                    <img src='./images/viewers-national.png' alt='' ></img>
                     </Wrap>
                     <Wrap>
-                    <img src='/images/viewers-pixar.png' alt='' ></img>
+                    <img src='./images/viewers-pixar.png' alt='' ></img>
                     </Wrap>
                     <Wrap>
-                    <img src='/images/viewers-starwars.png' alt='' ></img>
+                    <img src='./images/viewers-starwars.png' alt='' ></img>
                     </Wrap>
             </Include>
 
@@ -46,7 +46,7 @@ export default login
 
 
 const Container = styledComponents.div`
-background:url("/images/login-background.jpg") center center / cover
+background:url("./images/login-background.jpg") center center / cover
         no-repeat fixed;
 
 
