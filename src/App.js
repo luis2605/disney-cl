@@ -37,7 +37,7 @@ function App() {
    
     <Container>
       
-      <HashRouter basename={`/${process.env.PUBLIC_URL}`} >
+      <HashRouter  >
       
         <Header />
         <Routes>
