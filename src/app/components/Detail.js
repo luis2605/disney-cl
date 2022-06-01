@@ -33,7 +33,7 @@ function Detail(props) {
                     </GroupBtn>
                 </Controls>
                 <Subtitles>
-                        2018 - 7min - animation 
+                <p>{props.img[0].year} ‧ </p> <p>{props.img[0].duration} ‧ </p> <p>{props.img[0].director} </p> 
                 </Subtitles>
                 <Description>
                 {props.img[0].description}
@@ -191,6 +191,14 @@ font-size:.9rem;
 min-height:1.2em;
 margin-top:1em;
 margin-bottom:2em;
+display:inline-flex;
+p{
+    background-color:var(--main-bkg);
+    opacity:.7;
+    
+
+}
+
 
 `
 

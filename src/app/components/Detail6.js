@@ -8,12 +8,12 @@ function Detail(props) {
   return (
     <Container onClick={()=> console.log(props)}>
                <Background key={props.key}>
-                <img src={props.img[1].img} alt={props.img[1].title}></img>
+                <img src={props.img[6].img} alt={props.img[6].title}></img>
             </Background>
            
             <Content>
                 <ImageTitle>
-                    <img src={props.img[1].imgTitle} alt=''></img>
+                    <img src={props.img[6].imgTitle} alt=''></img>
                 </ImageTitle>
               
                 <Controls>
@@ -21,7 +21,7 @@ function Detail(props) {
                         <img src='/images/play-icon-black.png' alt=''></img>
                         <span>PLAY</span>
                     </PlayBtn>
-                    <a href={props.img[1].trailer} target={'_blank'} rel={'noreferrer'}><TrailerBtn>
+                    <a href={props.img[6].trailer} target={'_blank'} rel={'noreferrer'}><TrailerBtn>
                     <img src='/images/play-icon-white.png' alt=''></img>
                         <span>TRAILER</span>
                     </TrailerBtn></a>
@@ -33,10 +33,10 @@ function Detail(props) {
                     </GroupBtn>
                 </Controls>
                 <Subtitles>
-                <p>{props.img[1].year} ‧ </p> <p>{props.img[1].duration} ‧ </p> <p>{props.img[1].director} </p> 
+                <p>{props.img[6].year} ‧ </p> <p> {props.img[6].duration} ‧ </p> <p>{props.img[6].director} </p> 
                 </Subtitles>
                 <Description>
-                {props.img[1].description}
+                {props.img[6].description}
                 </Description>
             </Content>
 

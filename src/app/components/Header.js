@@ -10,23 +10,23 @@ function Header() {
              <img src='/images/home-icon.svg' alt='#'></img>
              <span>HOME</span>
             </a>
-            <a href='#'> 
+            <a href='/login'> 
              <img src='/images/search-icon.svg' alt='#'></img>
              <span>SEARCH</span>
             </a>
-            <a href='#'> 
+            <a href='/login'> 
              <img src='/images/watchlist-icon.svg' alt='#'></img>
              <span>WATCHLIST</span>
             </a>
-            <a href='#'> 
+            <a href='/login'> 
              <img src='/images/original-icon.svg' alt='#'></img>
              <span>ORIGINALS</span>
             </a>
-            <a href='#'> 
+            <a href='/login'> 
              <img src='/images/movie-icon.svg' alt='#'></img>
              <span>MOVIES</span>
             </a>
-            <a href='#'> 
+            <a href='/login'> 
              <img src='/images/series-icon.svg' alt='#'></img>
              <span>SERIES</span>
             </a>
@@ -34,7 +34,7 @@ function Header() {
 
         </NavMenu>
 
-        <UserImg src='/images/me.png' />
+    
 
         
         
@@ -103,14 +103,18 @@ a:hover{
 }
 }
 
-
-
-`
-const UserImg=styledComponents.img`
- width:48px;
- height:48px;
+@media(max-width:768px){
  
- border-radius:100%;
+
+    a span{
+        display:none;
+    }
+   a{
+       padding-right:.5em;
+   }
+    
+}
 
 
 `
+

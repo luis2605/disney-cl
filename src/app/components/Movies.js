@@ -20,7 +20,7 @@ const movieCard = props.img.map(item=>{
 
   return (
     <Container>
-       <h4> Recommended for You</h4>
+       <h4> Recommended for You :</h4>
        <Content>
            {movieCard}
        </Content>

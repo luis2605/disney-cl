@@ -34,7 +34,16 @@ margin:4em 0 3em 0;
 
 display:flex;
 
+@media (max-width:375px){
 
+     flex-direction:column;
+}
+
+@media (max-width:425px){
+
+    flex-direction:column;
+     
+}
 
 
 
@@ -58,6 +67,20 @@ transition:all 250ms cubic-bezier(.25, .46, .45, .94) 0s;
 box-shadow:var(--bigger-shadow-effect);
 
  }
+ @media (max-width:375px){
+    
+          width:60%;
+          height:60%;
+          margin:.5em auto;
+    
+     
+}
 
+@media (max-width:425px){
 
+     margin:.5em auto ;
+     width:40%;
+     height:40%;
+     
+}
 `

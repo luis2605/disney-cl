@@ -75,6 +75,16 @@ li.slick-active button::before{
     bottom:-30px;
 }
 
+@media(max-width:425px){
+ .slick-track{
+     img{
+        height:185px;
+     }
+    
+ }
+    
+}
+
 `
 const Wrap =styledComponents.div`
 
