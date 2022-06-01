@@ -38,7 +38,7 @@ function App() {
    
     <Container>
       
-      <Router  >
+      <HashRouter basename='/'  >
       
         <Header />
         <Routes>
@@ -57,7 +57,7 @@ function App() {
         </Routes>
         <Footer/>
      
-        </Router>
+        </HashRouter>
       
 
      
