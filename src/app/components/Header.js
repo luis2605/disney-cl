@@ -1,15 +1,26 @@
 import React from 'react'
 import styledComponents from 'styled-components'
 
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link,
+    Routes,
+    HashRouter,
+    BrowserRouter
+  } from "react-router-dom";
+  
 function Header() {
   return (
     <Nav>
         <Logo src='./images/logo.svg'/>
         <NavMenu>
-            <a href='/'> 
+            <HashRouter>
+            <Link to="/"> 
              <img src='./images/home-icon.svg' alt='#'></img>
              <span>HOME</span>
-            </a>
+            </Link>
             <a href='/login'> 
              <img src='./images/search-icon.svg' alt='#'></img>
              <span>SEARCH</span>
@@ -31,7 +42,7 @@ function Header() {
              <span>SERIES</span>
             </a>
 
-
+            </HashRouter>
         </NavMenu>
 
     
