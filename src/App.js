@@ -17,7 +17,7 @@ import Data from './app/components/Data';
 import Footer from './app/components/Footer';
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Link,
@@ -38,7 +38,7 @@ function App() {
    
     <Container>
       
-      <HashRouter   >
+      <Router   >
       
         <Header />
         <Routes>
@@ -57,7 +57,7 @@ function App() {
         </Routes>
         <Footer/>
      
-        </HashRouter>
+        </Router>
       
 
      
