@@ -21,7 +21,8 @@ import {
   Switch,
   Route,
   Link,
-  Routes
+  Routes,
+  HashRouter
 } from "react-router-dom";
 
 
@@ -35,7 +36,7 @@ function App() {
 
    
     <Container>
-      <Router>
+      <HashRouter>
         <Header />
         <Routes>
           <Route path="/login" element={<Login/>} />
@@ -52,7 +53,7 @@ function App() {
              
         </Routes>
         <Footer/>
-      </Router>
+      </HashRouter>
 
      
     </Container>
