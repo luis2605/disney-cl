@@ -37,7 +37,7 @@ function App() {
    
     <Container>
       
-      <HashRouter>
+      <HashRouter basename={`/${process.env.PUBLIC_URL}`} >
       
         <Header />
         <Routes>
@@ -52,7 +52,7 @@ function App() {
             <Route path="/detail6" element={<Detail6 img={moviesData} />} />
             <Route path="/detail7" element={<Detail7 img={moviesData} />} />
             <Route path="/login" element={<Login img={moviesData} />} />
-            <Route path= "/" element={<Home img={moviesData}/>} />
+            <Route path= "" element={<Home img={moviesData}/>} />
              
         </Routes>
         <Footer/>
