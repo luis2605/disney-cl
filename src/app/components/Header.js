@@ -10,7 +10,7 @@ function Header() {
              <img src='./images/home-icon.svg' alt='#'></img>
              <span>HOME</span>
             </a>
-            <a href='./login'> 
+            <a href="./#/login"> 
              <img src='./images/search-icon.svg' alt='#'></img>
              <span>SEARCH</span>
             </a>
