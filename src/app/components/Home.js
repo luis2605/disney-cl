@@ -7,18 +7,16 @@ import Data from './Data'
 
 
 
-function Home() {
+function Home(props) {
 
-    const [ movieData, setMovieData]=React.useState(Data)
-
-    console.log(movieData)
+  
 
 
   return (
     <Container>
         <ImgSlider/>   
         <Viewers/>
-        <Movies title={}/>
+        <Movies  img={props.img}/>
     </Container>
   )
 }

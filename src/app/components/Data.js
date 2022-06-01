@@ -1,30 +1,49 @@
  export default [
     {
+      key:0,
+      detail:"detail",
       title:"Eternals",
-      description:"In the film, the Eternals, immortal alien beings, emerge from hiding after thousands of years to protect Earth from their ancient counterparts, the Deviants.",
+      description:"Marvel Studios’ 'Eternals' follows a group of ancient heroes from beyond the stars who had protected Earth since the dawn of man. When monstrous creatures called Deviants, long thought lost to history, mysteriously return, the Eternals are forced to reunite in order to defend humanity once again.",
       trailer:"https://www.youtube.com/watch?v=x_me3xsvDgk",
       duration:"2h:37m",
       year:"2021",
      director:"Chloé Zhao",
      img:"https://images-na.ssl-images-amazon.com/images/I/81iWs7Ea8ZL._RI_.jpg",
+     imgTitle:"https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D734418FF951C8DE710A56BBB148DBC507021D3C37BB08D25C035E019541DF6D/scale?width=1440&aspectRatio=1.78&format=png",
     },
     {
+      key:1,
+      detail:"detail1",
       title:"Nightmare Alley ",
       description:"In 1940s New York, down-on-his-luck Stanton Carlisle endears himself to a clairvoyant and her mentalist husband at a traveling carnival. Using newly acquired knowledge, Carlisle crafts a golden ticket to success by swindling the elite and wealthy. Hoping for a big score, he soon hatches a scheme to con a dangerous tycoon with help from a mysterious psychologist who might be his most formidable opponent yet.",
       trailer:"https://www.youtube.com/watch?v=Q81Yf46Oj3s",
       duration:"2h:20m",
       year:"2021",
      director:"Guillermo del Toro",
-     img:"https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/64312EADC0F7FD75D05BDB716BCA1F13C86C49ADE27038AFEC2528557FA10C64/scale?width=1200&aspectRatio=1.78&format=jpeg"
+     img:"https://m.media-amazon.com/images/M/MV5BOTI4NDhhNGEtZjQxZC00ZTRmLThmZTctOGJmY2ZlOTc0ZGY0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg",
+     imgTitle:"https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/965879174418BE5E7C64B9C63719B4B696454913873BBF7CED65B581327645EC/scale?width=1440&amp;aspectRatio=1.78&amp;format=png",
 
     },
     {
+      key:2,
+      detail:"detai2",
       title:"Death on the Nile",
       description:"Belgian sleuth Hercule Poirot's Egyptian vacation aboard a glamorous river steamer turns into a terrifying search for a murderer when a picture-perfect couple's idyllic honeymoon is tragically cut short.",
       trailer:"https://www.youtube.com/watch?v=dZRqB0JLizw",
       duration:"2h:07m",
       year:"2022",
      director:"Kenneth Branagh",
-     img:"https://m.media-amazon.com/images/M/MV5BNjI4ZTQ1OTYtNTI0Yi00M2EyLThiNjMtMzk1MmZlOWMyMDQwXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg"
+     img:"https://m.media-amazon.com/images/M/MV5BNjI4ZTQ1OTYtNTI0Yi00M2EyLThiNjMtMzk1MmZlOWMyMDQwXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg",
+    },
+    {
+      key:3,
+      detail:"detail3",
+      title:"Free Guy ",
+      description:"When a bank teller discovers he's actually a background player in an open-world video game, he decides to become the hero of his own story -- one that he can rewrite himself. In a world where there's no limits, he's determined to save the day his way before it's too late, and maybe find a little romance with the coder who conceived him.",
+      trailer:"https://www.youtube.com/watch?v=X2m-08cOAbc",
+      duration:"1h:55m",
+      year:"2021",
+     director:" Shawn Levy",
+     img:"https://m.media-amazon.com/images/M/MV5BOTY2NzFjODctOWUzMC00MGZhLTlhNjMtM2Y2ODBiNGY1ZWRiXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg"
     },
             ]

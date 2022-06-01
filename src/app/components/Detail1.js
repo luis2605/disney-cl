@@ -8,12 +8,12 @@ function Detail(props) {
   return (
     <Container onClick={()=> console.log(props)}>
                <Background key={props.key}>
-                <img src={props.img[0].img} alt={props.img[0].title}></img>
+                <img src={props.img[1].img} alt={props.img[1].title}></img>
             </Background>
            
             <Content>
                 <ImageTitle>
-                    <img src={props.img[0].imgTitle} alt=''></img>
+                    <img src={props.img[1].imgTitle} alt=''></img>
                 </ImageTitle>
               
                 <Controls>
@@ -21,7 +21,7 @@ function Detail(props) {
                         <img src='/images/play-icon-black.png' alt=''></img>
                         <span>PLAY</span>
                     </PlayBtn>
-                    <a href={props.img[0].trailer} target={'_blank'} rel={'noreferrer'}><TrailerBtn>
+                    <a href={props.img[1].trailer} target={'_blank'} rel={'noreferrer'}><TrailerBtn>
                     <img src='/images/play-icon-white.png' alt=''></img>
                         <span>TRAILER</span>
                     </TrailerBtn></a>
@@ -36,7 +36,7 @@ function Detail(props) {
                         2018 - 7min - animation 
                 </Subtitles>
                 <Description>
-                {props.img[0].description}
+                {props.img[1].description}
                 </Description>
             </Content>
 
@@ -69,8 +69,6 @@ opacity:.9;
         height:100%;
         object-fit:cover;
     }
-
-
 
 `
 const Content =styledComponents.div`
