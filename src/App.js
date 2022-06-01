@@ -41,18 +41,18 @@ function App() {
       
         <Header />
         <Routes>
-          <Route path="/disney-cl/login" element={<Login/>} />
+          <Route path="/login" element={<Login/>} />
           
-            <Route path="/disney-cl/detail" element={<Detail img={moviesData} />} />
-            <Route path="/disney-cl/detail1" element={<Detail1 img={moviesData} />} />
-            <Route path="/disney-cl/detail2" element={<Detail2 img={moviesData} />} />
-            <Route path="/disney-cl/detail3" element={<Detail3 img={moviesData} />} />
-            <Route path="/disney-cl/detail4" element={<Detail4 img={moviesData} />} />
-            <Route path="/disney-cl/detail5" element={<Detail5 img={moviesData} />} />
-            <Route path="/disney-cl/detail6" element={<Detail6 img={moviesData} />} />
-            <Route path="/disney-cl/detail7" element={<Detail7 img={moviesData} />} />
-            <Route path="/disney-cl/login" element={<Login img={moviesData} />} />
-            <Route path= "/disney-cl" element={<Home img={moviesData}/>} />
+            <Route path="/luis2605.github.io/disney-cl//detail" element={<Detail img={moviesData} />} />
+            <Route path="/detail1" element={<Detail1 img={moviesData} />} />
+            <Route path="/detail2" element={<Detail2 img={moviesData} />} />
+            <Route path="/detail3" element={<Detail3 img={moviesData} />} />
+            <Route path="/detail4" element={<Detail4 img={moviesData} />} />
+            <Route path="/detail5" element={<Detail5 img={moviesData} />} />
+            <Route path="/detail6" element={<Detail6 img={moviesData} />} />
+            <Route path="/detail7" element={<Detail7 img={moviesData} />} />
+            <Route path="/login" element={<Login img={moviesData} />} />
+            <Route path= "/" element={<Home img={moviesData}/>} />
              
         </Routes>
         <Footer/>
