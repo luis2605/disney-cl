@@ -40,6 +40,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/login" element={<Login/>} />
+          
             <Route path="/detail" element={<Detail img={moviesData} />} />
             <Route path="/detail1" element={<Detail1 img={moviesData} />} />
             <Route path="/detail2" element={<Detail2 img={moviesData} />} />
